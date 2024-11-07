@@ -64,4 +64,10 @@
 .footer__social-link {
   text-decoration: none;
   color: #fff;
+  transition: opacity 0.5s linear;
+  cursor: pointer;
+}
+
+.footer__social-link:hover {
+  opacity: 70%;
 }
