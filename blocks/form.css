@@ -1,3 +1,9 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+}
+
 .form__button {
   border-radius: 4px;
   background-color: #1878dc;
@@ -69,10 +75,6 @@
   margin: 32px Auto 0;
   display: flex;
   gap: 12px;
-}
-
-input::placeholder {
-  color: #838383;
 }
 
 .form__input,

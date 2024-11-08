@@ -104,6 +104,7 @@
                 id="name"
                 name="name"
                 placeholder="Name Surname"
+                required
               />
               <label for="number-of-guests" class="form__label">
                 Number of guests *
@@ -116,6 +117,7 @@
                 placeholder="1-8"
                 min="1"
                 max="8"
+                required
               />
               <label for="date&time" class="form__label">Date & time *</label>
               <input
@@ -123,6 +125,7 @@
                 type="datetime-local"
                 name="date&time"
                 id="date&time"
+                required
               />
               <label for="email" class="form__label">Your email *</label>
               <input
@@ -131,6 +134,7 @@
                 id="email"
                 placeholder="email@email.com"
                 class="form__input"
+                required
               />
             </fieldset>
             <button class="form__button" type="submit">Book a table</button>
@@ -140,6 +144,7 @@
                 class="form__checkbox"
                 name="checkbox"
                 id="checkbox"
+                required
               />
               I agree with the terms of use
             </label>
@@ -248,9 +253,7 @@
           </ul>
         </section>
         <section id="about" class="about">
-          <h2 class="about__title">
-            <span class="about__title_span"> About the </span> coffee shop
-          </h2>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
@@ -280,20 +283,22 @@
             <h2 class="footer__social-heading">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  src="./images/facebook_white.svg"
-                  alt="Facebook Logo"
-                  class="footer__social-icon"
-                />
-                <a href="#" class="footer__social-link">Facebook</a>
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
               </li>
               <li class="footer__list-item">
-                <img
-                  src="./images/instagram_white.svg"
-                  alt="Instagram Logo"
-                  class="footer__social-icon"
-                />
-                <a href="#" class="footer__social-link">Instagram</a>
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
               </li>
             </ul>
           </div>
