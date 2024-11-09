@@ -82,3 +82,7 @@
 .reservation__title {
   color: #000;
 }
+
+.form__input::placeholder {
+  color: #838383;
+}
